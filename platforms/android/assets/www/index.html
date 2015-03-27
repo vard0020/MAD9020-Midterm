@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/hammer.min.js"></script>
+        
+        <title>Midterm</title>
+    </head>
+    
+    <body>
+        <!-- application title bar -->
+        <header class="apptitle">
+          <h1>Midterm</h1>
+        </header>
+        
+  <div data-role="page" id = "home" >
+    <h3>List of contacts</h3>
+    <ul data-role="listview" id = "contact"></ul>
+  </div>
+  
+    <div id = "wrapper">
+    <div data-role="overlay" id = "overlay">&nbsp;</div>
+  
+  <div data-role="modal" id = "modal1">
+    <h3>Modal 1</h3>
+    <form>
+      <div class="formBox">
+        <select name="list" id="list" class="lg">
+          <option value="1">First Value</option>
+          <option value="2">Second Value</option>
+          <option value="3" >Third Value</option>
+          <option value="4" >Fourth Value</option>
+          <option value="5">Fifth Value</option>
+          <option value="6">Sixth Value</option>
+        </select>
+      </div>
+      <div class="formBox">
+        <input type="text" id="txt" name="txt" class="lg" placeholder="Enter a value here please"/>
+      </div>
+      <div class="formBox">
+        <input type="button" id="btnCancel" value="Cancel" class="btn"/>
+        <input type="button" id="btnSave" value="Save" class="btn"/>
+      </div>
+    </form>
+  </div>
+        
+        <div data-role="modal" id = "modal2">
+    <h3>Modal 2</h3>
+    <form>
+      <div class="formBox">
+        <select name="list" id="list" class="lg">
+          <option value="1">First Value</option>
+          <option value="2">Second Value</option>
+          <option value="3" >Third Value</option>
+          <option value="4" >Fourth Value</option>
+          <option value="5">Fifth Value</option>
+          <option value="6">Sixth Value</option>
+        </select>
+      </div>
+      <div class="formBox">
+        <input type="text" id="txt" name="txt" class="lg" placeholder="Enter a value here please"/>
+      </div>
+      <div class="formBox">
+        <input type="button" id="btnCancel" value="Cancel" class="btn"/>
+        <input type="button" id="btnSave" value="Save" class="btn"/>
+      </div>
+    </form>
+  </div>
+        </div>
+     
+    </body> 
+</html>
